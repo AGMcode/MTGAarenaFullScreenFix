@@ -21,6 +21,7 @@ This tool runs in the background and automatically detects when MTG Arena exits 
 - **Easy Launch**: Single batch file launches both the game and monitor
 - **Low Overhead**: Minimal system resource usage
 - **Auto-Exit**: Closes automatically when MTG Arena is closed
+- **Clear Code**: You can read the code, no compile!
 
 ## Requirements
 
@@ -42,6 +43,15 @@ Simply run `Launch_MTGA.bat` - it will:
 1. Launch MTG Arena through Steam
 2. Wait for the game to initialize (15 seconds)
 3. Start the fullscreen monitor
+
+### Windows pin to start
+Add to win 11 start menu `press win key`
+1. Create a shorcut of `Launch_MTGA.bat`
+2. Cut||Copy the shorcut 
+3. Press Win key + R
+4. Type: 'shell:programs' then click `OK`
+5. Paste the shorcut on the folder it just opened 
+6. Press Win key, search for 'Launch_MTGA' , click it and pin it!
 
 ### Manual Usage
 
